@@ -1,10 +1,11 @@
+from typing import List
+
+
 class Solution:
-    def isSubsequence(self, s: str, t: str) -> bool:
+    def missingNumber(self, nums: List[int]) -> int:
 
-        return True
+        return 0
 
 
-s = "abc"
-t = "ahbgdc"
-sol = Solution()
-print(sol.isSubsequence(s, t))
+nums = [3,0,1]
+print(Solution().missingNumber(nums))
